@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: cairo;
+    src: url(../font/Cairo-Bold.ttf);
+
+}
+
+body {
+    font-family: cairo;
+}
+
+header {
+    width: 100%;
+    height: 650px;
+    background-color: #777B7E;
+
+}
+
+header .contenr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+
+header .title-text h1 {
+    padding-left: 20px;
+}
+
+header .logo {
+    padding-right: 350px;
+    border-right: 5px solid #49555e;
+    height: 180px;
+}
+
+header .logo i{
+    color: black;
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+header .time-dwon {
+    width: 60%;
+    margin: 90PX auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .conter-time {
+    display: inline-block;
+    margin: 0 15PX ;
+    
+}
+
+header .date {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+
+header .name-of-date {
+    font-size: 25px;
+}
+
+
+.email-input {
+    margin: -25PX;
+    font-size: 18px;
+    color: #49555e;
+    text-align: center;
+}
+
+.input-gruop {
+    display: flex;
+    width: 30%;
+    margin: auto;
+
+}
+
+
+
+.input-gruop button {
+    background-color: #49555e;
+}
+
+.input-gruop input{
+    border: 2px solid #49555e;
+    color: #49555e;
+    text-align: center;
+    width: 70%;
+}
+
+
+
+section .container {
+    margin-top: 70px ;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+section .container h2 {
+    padding-bottom: 20px;
+}
+
+section .container .flix-shrink-0 i {
+    font-size: 30px;
+    color: #595a5a;
+    
+}
+
+section .container .d-flix {
+    margin: 12px;
+    padding: 10px;
+    border: 2px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+}
+
+section .container .d-flix h4 {
+    font-size: 24px;
+}
+
+section .container .d-flix p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #bababa;
+}
+
+
+footer  {
+    width: 100%;
+    height: 170px;
+    background-color: #595a5a;
+    text-align: center;
+}
+
+footer .container{
+    padding: 20px;
+}
+
+footer .container .cont {
+    margin: 30PX 0 0 0 ;
+}
+
+footer .container .cont  a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    margin-left:30px ;
+    color: #c1c1c1;
+    width: 25px;
+}
+
+footer .container .cont  a:hover {
+    color: #858181;
+}
